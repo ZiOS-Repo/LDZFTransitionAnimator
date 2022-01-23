@@ -1,6 +1,6 @@
-#import "IUAnimationRight.h"
+#import "LdzfAnimationRight.h"
 
-@implementation IUAnimationRight
+@implementation LdzfAnimationRight
 - (instancetype)init
 {
     self = [super init];

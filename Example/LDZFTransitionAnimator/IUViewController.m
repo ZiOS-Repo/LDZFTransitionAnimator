@@ -1,6 +1,6 @@
 //
 //  IUViewController.m
-//  IU_IUBaseIUBaseTransitionAnimator
+//  IU_IUBaseLdzfBaseTransitionAnimator
 //
 //  Created by zhuyuhui434@gmail.com on 06/05/2021.
 //  Copyright (c) 2021 zhuyuhui434@gmail.com. All rights reserved.
@@ -54,30 +54,30 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    IUBaseTransitionAnimator *animation = nil;
+    LdzfBaseTransitionAnimator *animation = nil;
     if (indexPath.section == 0) {
         TestViewController *testVC = [[TestViewController alloc] init];
         switch (indexPath.row) {
             case 0:
-                animation = [[IUAnimationLeft alloc] init];
+                animation = [[LdzfAnimationLeft alloc] init];
                 break;
             case 1:
-                animation = [[IUAnimationRight alloc] init];
+                animation = [[LdzfAnimationRight alloc] init];
                 break;
             case 2:
-                animation = [[IUAnimationTop alloc] init];
+                animation = [[LdzfAnimationTop alloc] init];
                 break;
             case 3:
-                animation = [[IUAnimationBottom alloc] init];
+                animation = [[LdzfAnimationBottom alloc] init];
                 break;
             case 4:
-                animation = [[IUAnimationFade alloc] init];
+                animation = [[LdzfAnimationFade alloc] init];
                 break;
             case 5:
-                animation = [[IUAnimationCenterFromTop alloc] init];
+                animation = [[LdzfAnimationCenterFromTop alloc] init];
                 break;
             default:
-                animation = [[IUAnimationCenterFromBottom alloc] init];
+                animation = [[LdzfAnimationCenterFromBottom alloc] init];
                 break;
         }
         [self presentViewController:testVC animation:animation completion:nil];

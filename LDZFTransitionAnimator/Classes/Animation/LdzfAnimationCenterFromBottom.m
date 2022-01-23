@@ -1,8 +1,7 @@
 
-#import "IUAnimationFade.h"
+#import "LdzfAnimationCenterFromBottom.h"
 
-@implementation IUAnimationFade
-
+@implementation LdzfAnimationCenterFromBottom
 - (instancetype)init
 {
     self = [super init];
@@ -25,28 +24,35 @@
     UIView *toView = [transitionContext viewForKey:UITransitionContextToViewKey];
     UIView *fromView = [transitionContext viewForKey:UITransitionContextFromViewKey];
     [containerView addSubview:toView];  //必须添加到动画容器View上。
-    // 判断是present 还是 dismiss
+    
     BOOL isPresenting = (fromViewController == self.presentingViewController);
     
     CGFloat screenW = CGRectGetWidth(containerView.bounds);
     CGFloat screenH = CGRectGetHeight(containerView.bounds);
     
-    // 如果是淡入淡出的效果则单独设置,并不执行下面的语句
-    CGFloat width = screenW * self.contentWidthRatio;
-    CGFloat height = screenH * self.contentHeightRatio;
-    CGFloat x = (screenW - width) / 2;
-    CGFloat y = (screenH - height) / 2;
-    CGRect frame = CGRectMake(x, y, width, height);
-    if (isPresenting) toView.frame = frame;
+    CGFloat w = screenW * self.contentWidthRatio;
+    CGFloat h = screenH * self.contentHeightRatio;
+    CGFloat x = (screenW - w) / 2;
+    CGFloat y = (screenH - h) / 2;
+    
+    // 屏幕顶部
+    CGRect beginFrame = CGRectMake(x, screenH, w, h);
+    // 屏幕中间：
+    CGRect showFrame = CGRectMake(x, y, w, h);
+    // 屏幕底部
+    CGRect endFrame = CGRectMake(x, -1 * screenH, w, h);
+    
+    if (isPresenting) toView.frame = beginFrame;
+        
     [UIView animateWithDuration:self.transitionDuration delay:self.delay usingSpringWithDamping:self.dampingRatio initialSpringVelocity:self.velocity options:self.options animations:^{
-        if (isPresenting) {
-            toView.alpha = 1.0f;
-        } else {
-            fromView.alpha = 0.0f;
-        }
+        if (isPresenting)
+            toView.frame = showFrame;
+        else
+            fromView.frame = endFrame;
     } completion:^(BOOL finished) {
         BOOL wasCancelled = [transitionContext transitionWasCancelled];
         [transitionContext completeTransition:!wasCancelled];
     }];
+    
 }
 @end

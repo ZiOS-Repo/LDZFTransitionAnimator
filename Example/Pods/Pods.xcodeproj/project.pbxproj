@@ -7,36 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05D60EF1F950664FA3224E83C49211FC /* UIViewController+IUPresentAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9717237718AEB4CD1F53E6E1ABC8E4CA /* UIViewController+IUPresentAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B75D08AE2BDBE1BB113713C860132AB /* IUAnimationCenterFromTop.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E4EFF29B1368561C0BA5617EF9CD31 /* IUAnimationCenterFromTop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05210421FB4B5E5D8A075C933B94F120 /* LdzfAnimationRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 932FF2C2D7BC87887DC2F133DA801CD0 /* LdzfAnimationRight.m */; };
 		0F15CF29C5443C667BEB8B937CE93DE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		13750121C43C0D658254C60B519E33D3 /* LdzfBaseTransitionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 793DD76FFCC574B7E45124BCBBC18564 /* LdzfBaseTransitionAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		139B8FADF1DDF3CF2C967ED0B1DEB9BB /* Pods-LDZFTransitionAnimator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7956EF41A2BF3CF3EA4160C6EBC266 /* Pods-LDZFTransitionAnimator_Example-dummy.m */; };
-		185E11D02C81397456CAB9291A5C0AEC /* IUAnimationCenterFromTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CC461D68D5A997365864241B2A20D3 /* IUAnimationCenterFromTop.m */; };
-		19334357FF312CF866B38368D33BA82B /* LDZFTransitionAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8341DE5BF1FF5DCBF3DB779DFE5007EF /* LDZFTransitionAnimator-dummy.m */; };
-		1946E051EDE8315307DEA2594A6D7723 /* IUAnimationCenterFromBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = E37F6A4BFB5E2F7FAFACC0DA6FF67AB6 /* IUAnimationCenterFromBottom.m */; };
-		26629096063F4236F5BE1BB175DE607C /* IUAnimationTop.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE728AAD2E2D7396383B10C1CBE7AD2 /* IUAnimationTop.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EE1ED0B660EC20F8CE55F8A988D81C0 /* IUAnimationFade.h in Headers */ = {isa = PBXBuildFile; fileRef = DA646B65118AF43302B99089B0406BCC /* IUAnimationFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348A2434F63F2B4E43109B8A4F3FDD57 /* IUAnimationBottom.h in Headers */ = {isa = PBXBuildFile; fileRef = 76AD1C04035016FFF2069DAD123ABB41 /* IUAnimationBottom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35809C7C7CE755358BB66C3B0E1AD123 /* IUCustomPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = C19113F92F42AE26B483B5259954197B /* IUCustomPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38E6F474E11D227BB706A478249F9807 /* IUAnimationFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 8493893256204A031DB8A48E39FF2443 /* IUAnimationFade.m */; };
-		3ADE06878E37082E24760C8548C57A50 /* IUCustomPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E97E256516AC21C88FD73F1781BA0 /* IUCustomPresentationController.m */; };
-		60E12A8B13FA29E7EA6824308471043A /* IUAnimationCenterFromBottom.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D8913114A2F8E7D978EA3A51F27DEE /* IUAnimationCenterFromBottom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B45C5FDAFC3ED82C4927B6829DBC4B5 /* LDZFTransitionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0299AC596FDBD14E05FC7DCA8A336E /* LDZFTransitionAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DD725CBD0FB792D50791B19A798B978 /* IUBaseTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D18327E3342858EB70EA7CED0BF6FB /* IUBaseTransitionAnimator.m */; };
-		84BCB45417E27324C2E605A4A6DC5871 /* IUAnimationLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 5885E2AB97A7166198F9B7CBED6DB122 /* IUAnimationLeft.m */; };
-		8740F7BDA8EF20A3AE6D7B0190CD841C /* LDZFTransitionAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5FECC2749657407CBC12742E5CAD1A /* LDZFTransitionAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90A38C2649BF176F64FA609AFFB94949 /* IUAnimationBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = C425E1CB0A74B2623688DD81BEC4C293 /* IUAnimationBottom.m */; };
-		A2C36A746431125CF051A2C94EA423AF /* IUBaseTransitionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FD978F7A74E377098AFE73121C984B /* IUBaseTransitionAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16C1F3357AAAE170F7BAB593C3B8A5BB /* UIViewController+LdzfPresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1192F7128420DEE996215690CB705979 /* UIViewController+LdzfPresentAnimator.m */; };
+		19E505ABF02333EE16AD09D9D110763C /* LdzfAnimationCenterFromBottom.h in Headers */ = {isa = PBXBuildFile; fileRef = F923341D609CECCB74169C8725F7848F /* LdzfAnimationCenterFromBottom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BE9B9EE6754C45E24C000BFF78CF468 /* LdzfAnimationTop.m in Sources */ = {isa = PBXBuildFile; fileRef = EA036FE74A452B4947D86383DC932005 /* LdzfAnimationTop.m */; };
+		1CEB804F1B2EB80873D40EF6ABDDE9E3 /* LdzfAnimationTop.h in Headers */ = {isa = PBXBuildFile; fileRef = B0882A3F4C53516747C4111673197CCF /* LdzfAnimationTop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F75DA0F07BBA235A980538EAB5FD164 /* LdzfAnimationLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 4986E7A3E02692AC51AE2C1B1D2F6236 /* LdzfAnimationLeft.m */; };
+		21A66C50465FC7615C4DCA147DE8A4AF /* LdzfCustomPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC765052148443E1E29B5DF18EED643 /* LdzfCustomPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		307883B645ABBFD78F2A826BF218F94F /* LdzfAnimationFade.h in Headers */ = {isa = PBXBuildFile; fileRef = B93EBC9D80B15760FABE3922DC5330AC /* LdzfAnimationFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45693E07485DCD7BC32F2BE782351707 /* LdzfAnimationCenterFromTop.h in Headers */ = {isa = PBXBuildFile; fileRef = 0944097211C56CFA47FC3A41E79E9778 /* LdzfAnimationCenterFromTop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48519EA9138C20604A48A34D1F61F5BB /* LDZFTransitionAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2E50AAEBBCEFD2836DAF8CF25D6F8 /* LDZFTransitionAnimator-dummy.m */; };
+		58DE2CE277EF88800D618D5F1CB04F35 /* LdzfAnimationCenterFromBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = 562913B3B73C34538C850515377772B1 /* LdzfAnimationCenterFromBottom.m */; };
+		7AD6121D07855ED027B41BC7F0C23821 /* LDZFTransitionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = F4E07D063D8E29C5EBE03B44B9772942 /* LDZFTransitionAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82E215E0B6A69E174793DCBD3CF18D20 /* LdzfCustomPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04879E39C66E6F00D5E3BA3A5E7F5A5B /* LdzfCustomPresentationController.m */; };
+		891379F287A2B38D78C4893437443847 /* LDZFTransitionAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F318C81B0034BC3735D35D28C434377B /* LDZFTransitionAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F82D2904E0EF1553258A01305C50455 /* LdzfAnimationBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CA00A08FCBC73B1C9EF26CE87A020A /* LdzfAnimationBottom.m */; };
+		9FD3992DDC830BC5BEF540FE57D266B9 /* LdzfAnimationFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 408B7EC62872029AB197754D7CDDFCD8 /* LdzfAnimationFade.m */; };
 		A35DF08E0D4B523B389BC7342C90E65F /* Pods-LDZFTransitionAnimator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98DA3D45225EF4758F676E7B5605F5D3 /* Pods-LDZFTransitionAnimator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A444FE4FC70C9AC73BC17C440545D3F6 /* IUAnimationLeft.h in Headers */ = {isa = PBXBuildFile; fileRef = AD99AB85E27E02E7593A3EF21B6E487C /* IUAnimationLeft.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD9287ECEB05FDF6C7BFB786BA7EB22A /* LdzfAnimationRight.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BCCEA110E861E288169B601EFBA2DF0 /* LdzfAnimationRight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE5E31501935A47576F58FA4FC020FB2 /* UIViewController+LdzfPresentAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F21E127EF3BB199E5C9C42DBA2166D2 /* UIViewController+LdzfPresentAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4E98C5A565A84BC8C9CE7E510FFFCF3 /* Pods-LDZFTransitionAnimator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A032F5FA4747AB9581AEB6FFAEF08BE /* Pods-LDZFTransitionAnimator_Tests-dummy.m */; };
-		C96CD98877AD61A1853C28D7DDB6EF19 /* UIViewController+IUPresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CB12CD89615197074DEA834516F5EC /* UIViewController+IUPresentAnimator.m */; };
-		CFED165D699E7D73220131A7C5A64803 /* IUAnimationTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8CA98C490D17CEF1D9470B02D0F9D8 /* IUAnimationTop.m */; };
+		CFAE0C3840F00B6F60F865BDB2D1B3D0 /* LdzfBaseTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAFCE0E1950E881EE131BE621E53EE9 /* LdzfBaseTransitionAnimator.m */; };
 		D9B77DC773A64B936A6AB832693072CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E3ED785164B8BC528DDABA50259413A6 /* Pods-LDZFTransitionAnimator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA4C93B952127A43A760B823F8EC8D2 /* Pods-LDZFTransitionAnimator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5F5BDAF17C344B93AD08E1915FF41A9 /* IUAnimationRight.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F118103DE10F609AD896DE9EECE795B /* IUAnimationRight.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E71780D956CFCDDD96DF1EFFE1AD126F /* IUAnimationRight.m in Sources */ = {isa = PBXBuildFile; fileRef = E39500444937FFE8A3795CBA1354A563 /* IUAnimationRight.m */; };
+		EC3A25946F5303C70867DA1040374110 /* LdzfAnimationLeft.h in Headers */ = {isa = PBXBuildFile; fileRef = 404C8AF75D7225970AC6710EF9824ED3 /* LdzfAnimationLeft.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEAF71A274321EE01AE8DFBE5A195349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EEDB72A170403DBF3D53885B348EB2A2 /* LdzfAnimationCenterFromTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 467DEBBA51A2E22A2022A83121532A21 /* LdzfAnimationCenterFromTop.m */; };
+		F323884105AC46DD3F22F50985A6748D /* LdzfAnimationBottom.h in Headers */ = {isa = PBXBuildFile; fileRef = 1918DC5E5111BCC20629F4B23B8DB6F7 /* LdzfAnimationBottom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,56 +57,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		140904ABFF15EDE2FF5A7BECBED2D604 /* LDZFTransitionAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFTransitionAnimator.debug.xcconfig; sourceTree = "<group>"; };
+		00C2E50AAEBBCEFD2836DAF8CF25D6F8 /* LDZFTransitionAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LDZFTransitionAnimator-dummy.m"; sourceTree = "<group>"; };
+		03E14C4AC3558A515087FD22293152F3 /* LDZFTransitionAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFTransitionAnimator.debug.xcconfig; sourceTree = "<group>"; };
+		04879E39C66E6F00D5E3BA3A5E7F5A5B /* LdzfCustomPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LdzfCustomPresentationController.m; path = LDZFTransitionAnimator/Classes/LdzfCustomPresentationController.m; sourceTree = "<group>"; };
+		0944097211C56CFA47FC3A41E79E9778 /* LdzfAnimationCenterFromTop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LdzfAnimationCenterFromTop.h; sourceTree = "<group>"; };
+		1192F7128420DEE996215690CB705979 /* UIViewController+LdzfPresentAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LdzfPresentAnimator.m"; path = "LDZFTransitionAnimator/Classes/UIViewController+LdzfPresentAnimator.m"; sourceTree = "<group>"; };
+		1918DC5E5111BCC20629F4B23B8DB6F7 /* LdzfAnimationBottom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LdzfAnimationBottom.h; sourceTree = "<group>"; };
 		1A032F5FA4747AB9581AEB6FFAEF08BE /* Pods-LDZFTransitionAnimator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDZFTransitionAnimator_Tests-dummy.m"; sourceTree = "<group>"; };
-		33E4EFF29B1368561C0BA5617EF9CD31 /* IUAnimationCenterFromTop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IUAnimationCenterFromTop.h; sourceTree = "<group>"; };
+		2F21E127EF3BB199E5C9C42DBA2166D2 /* UIViewController+LdzfPresentAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LdzfPresentAnimator.h"; path = "LDZFTransitionAnimator/Classes/UIViewController+LdzfPresentAnimator.h"; sourceTree = "<group>"; };
 		394A41812F41B5C4E35B3F7B1ED5C18E /* Pods-LDZFTransitionAnimator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFTransitionAnimator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3E97A1CAEFBED285039E035E649BDE16 /* LDZFTransitionAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDZFTransitionAnimator-prefix.pch"; sourceTree = "<group>"; };
+		404C8AF75D7225970AC6710EF9824ED3 /* LdzfAnimationLeft.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LdzfAnimationLeft.h; sourceTree = "<group>"; };
+		408B7EC62872029AB197754D7CDDFCD8 /* LdzfAnimationFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LdzfAnimationFade.m; sourceTree = "<group>"; };
 		419F21BAA58FD11BF213F0594E667331 /* Pods-LDZFTransitionAnimator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFTransitionAnimator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		41FD978F7A74E377098AFE73121C984B /* IUBaseTransitionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IUBaseTransitionAnimator.h; path = LDZFTransitionAnimator/Classes/IUBaseTransitionAnimator.h; sourceTree = "<group>"; };
-		459EDCEE3CC35BD3C4F562F97E014EBC /* LDZFTransitionAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LDZFTransitionAnimator.modulemap; sourceTree = "<group>"; };
+		467DEBBA51A2E22A2022A83121532A21 /* LdzfAnimationCenterFromTop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LdzfAnimationCenterFromTop.m; sourceTree = "<group>"; };
+		48CA00A08FCBC73B1C9EF26CE87A020A /* LdzfAnimationBottom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LdzfAnimationBottom.m; sourceTree = "<group>"; };
+		4986E7A3E02692AC51AE2C1B1D2F6236 /* LdzfAnimationLeft.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LdzfAnimationLeft.m; sourceTree = "<group>"; };
+		4AAFCE0E1950E881EE131BE621E53EE9 /* LdzfBaseTransitionAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LdzfBaseTransitionAnimator.m; path = LDZFTransitionAnimator/Classes/LdzfBaseTransitionAnimator.m; sourceTree = "<group>"; };
+		4BCCEA110E861E288169B601EFBA2DF0 /* LdzfAnimationRight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LdzfAnimationRight.h; sourceTree = "<group>"; };
+		4C93E1611BC02157FF17CA9A21F4E841 /* LDZFTransitionAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFTransitionAnimator.release.xcconfig; sourceTree = "<group>"; };
 		4CACC59AF77AFD35CB224B6A745D2D64 /* Pods-LDZFTransitionAnimator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LDZFTransitionAnimator_Example.modulemap"; sourceTree = "<group>"; };
 		4DA4C93B952127A43A760B823F8EC8D2 /* Pods-LDZFTransitionAnimator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDZFTransitionAnimator_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4E0299AC596FDBD14E05FC7DCA8A336E /* LDZFTransitionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDZFTransitionAnimator.h; path = LDZFTransitionAnimator/Classes/LDZFTransitionAnimator.h; sourceTree = "<group>"; };
-		53CC461D68D5A997365864241B2A20D3 /* IUAnimationCenterFromTop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IUAnimationCenterFromTop.m; sourceTree = "<group>"; };
+		502CBBC7E6C18DE592FC40AF1FB5169F /* LDZFTransitionAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LDZFTransitionAnimator-Info.plist"; sourceTree = "<group>"; };
+		562913B3B73C34538C850515377772B1 /* LdzfAnimationCenterFromBottom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LdzfAnimationCenterFromBottom.m; sourceTree = "<group>"; };
 		568210F42E0F0C31E197486DCA33B9C8 /* Pods-LDZFTransitionAnimator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDZFTransitionAnimator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		580C046667869B32309790EB8ACBACF0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		583A508A2AC338276E3A7E19275ECF33 /* Pods-LDZFTransitionAnimator_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LDZFTransitionAnimator_Tests"; path = Pods_LDZFTransitionAnimator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5885E2AB97A7166198F9B7CBED6DB122 /* IUAnimationLeft.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IUAnimationLeft.m; sourceTree = "<group>"; };
 		5D5A6780B9B100DE2731A18FF627F9D6 /* Pods-LDZFTransitionAnimator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LDZFTransitionAnimator_Tests.modulemap"; sourceTree = "<group>"; };
-		5FD7C29F4EE40A1BEAE4BA480DDF3E10 /* LDZFTransitionAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFTransitionAnimator.release.xcconfig; sourceTree = "<group>"; };
-		6BD3D39FEF5655BBB8A28BED1648963A /* LDZFTransitionAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDZFTransitionAnimator-prefix.pch"; sourceTree = "<group>"; };
-		6F118103DE10F609AD896DE9EECE795B /* IUAnimationRight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IUAnimationRight.h; sourceTree = "<group>"; };
+		70E1050A2C6F08C567DC10EC1BB6E8C6 /* LDZFTransitionAnimator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LDZFTransitionAnimator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76AD1C04035016FFF2069DAD123ABB41 /* IUAnimationBottom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IUAnimationBottom.h; sourceTree = "<group>"; };
-		7A0E37818AB31D1CC59CD1A6A7AE42F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		81CB12CD89615197074DEA834516F5EC /* UIViewController+IUPresentAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+IUPresentAnimator.m"; path = "LDZFTransitionAnimator/Classes/UIViewController+IUPresentAnimator.m"; sourceTree = "<group>"; };
-		8341DE5BF1FF5DCBF3DB779DFE5007EF /* LDZFTransitionAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LDZFTransitionAnimator-dummy.m"; sourceTree = "<group>"; };
-		8493893256204A031DB8A48E39FF2443 /* IUAnimationFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IUAnimationFade.m; sourceTree = "<group>"; };
+		793DD76FFCC574B7E45124BCBBC18564 /* LdzfBaseTransitionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LdzfBaseTransitionAnimator.h; path = LDZFTransitionAnimator/Classes/LdzfBaseTransitionAnimator.h; sourceTree = "<group>"; };
 		8A5E546006E3D7559F8019463D682D25 /* Pods-LDZFTransitionAnimator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFTransitionAnimator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8D8CA98C490D17CEF1D9470B02D0F9D8 /* IUAnimationTop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IUAnimationTop.m; sourceTree = "<group>"; };
-		8E6E97E256516AC21C88FD73F1781BA0 /* IUCustomPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IUCustomPresentationController.m; path = LDZFTransitionAnimator/Classes/IUCustomPresentationController.m; sourceTree = "<group>"; };
 		8F2576D761D0DF0E713FDC9F51A3D2EC /* Pods-LDZFTransitionAnimator_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LDZFTransitionAnimator_Example"; path = Pods_LDZFTransitionAnimator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FA7D91D2B3D0CB9376A9B21FA3C33E5 /* LDZFTransitionAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LDZFTransitionAnimator-Info.plist"; sourceTree = "<group>"; };
 		9223DCCBA196B272714D3F6E61011993 /* Pods-LDZFTransitionAnimator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFTransitionAnimator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		94D18327E3342858EB70EA7CED0BF6FB /* IUBaseTransitionAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IUBaseTransitionAnimator.m; path = LDZFTransitionAnimator/Classes/IUBaseTransitionAnimator.m; sourceTree = "<group>"; };
-		96D8913114A2F8E7D978EA3A51F27DEE /* IUAnimationCenterFromBottom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IUAnimationCenterFromBottom.h; sourceTree = "<group>"; };
-		9717237718AEB4CD1F53E6E1ABC8E4CA /* UIViewController+IUPresentAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+IUPresentAnimator.h"; path = "LDZFTransitionAnimator/Classes/UIViewController+IUPresentAnimator.h"; sourceTree = "<group>"; };
+		932FF2C2D7BC87887DC2F133DA801CD0 /* LdzfAnimationRight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LdzfAnimationRight.m; sourceTree = "<group>"; };
+		945F808257850C7DC7691E674539671F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		98DA3D45225EF4758F676E7B5605F5D3 /* Pods-LDZFTransitionAnimator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDZFTransitionAnimator_Example-umbrella.h"; sourceTree = "<group>"; };
+		9A474F46B1878E48AEC3D4B59966DB1D /* LDZFTransitionAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LDZFTransitionAnimator.modulemap; sourceTree = "<group>"; };
 		9B172AAF079D5207DC01C51358DB2079 /* Pods-LDZFTransitionAnimator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDZFTransitionAnimator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ACA6622FCB3681C41E29571FB64B0BF5 /* LDZFTransitionAnimator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LDZFTransitionAnimator.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		AD99AB85E27E02E7593A3EF21B6E487C /* IUAnimationLeft.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IUAnimationLeft.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0882A3F4C53516747C4111673197CCF /* LdzfAnimationTop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LdzfAnimationTop.h; sourceTree = "<group>"; };
 		B48D7E8AE381B4DC861360507878BAB6 /* Pods-LDZFTransitionAnimator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFTransitionAnimator_Example-Info.plist"; sourceTree = "<group>"; };
-		BDE728AAD2E2D7396383B10C1CBE7AD2 /* IUAnimationTop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IUAnimationTop.h; sourceTree = "<group>"; };
-		C19113F92F42AE26B483B5259954197B /* IUCustomPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IUCustomPresentationController.h; path = LDZFTransitionAnimator/Classes/IUCustomPresentationController.h; sourceTree = "<group>"; };
-		C425E1CB0A74B2623688DD81BEC4C293 /* IUAnimationBottom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IUAnimationBottom.m; sourceTree = "<group>"; };
+		B93EBC9D80B15760FABE3922DC5330AC /* LdzfAnimationFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LdzfAnimationFade.h; sourceTree = "<group>"; };
 		CB2972EE0C5D29E04E343C0E90214992 /* Pods-LDZFTransitionAnimator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFTransitionAnimator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEC765052148443E1E29B5DF18EED643 /* LdzfCustomPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LdzfCustomPresentationController.h; path = LDZFTransitionAnimator/Classes/LdzfCustomPresentationController.h; sourceTree = "<group>"; };
 		CF7DA6C6EE1157B8E74C80903A650FEF /* Pods-LDZFTransitionAnimator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDZFTransitionAnimator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DA646B65118AF43302B99089B0406BCC /* IUAnimationFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IUAnimationFade.h; sourceTree = "<group>"; };
-		DB0E150CC5AF5858A341BB0F10F240D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DC00E4B9665B2BBB438500D95F909088 /* Pods-LDZFTransitionAnimator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFTransitionAnimator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DF5FECC2749657407CBC12742E5CAD1A /* LDZFTransitionAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDZFTransitionAnimator-umbrella.h"; sourceTree = "<group>"; };
-		E37F6A4BFB5E2F7FAFACC0DA6FF67AB6 /* IUAnimationCenterFromBottom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IUAnimationCenterFromBottom.m; sourceTree = "<group>"; };
-		E39500444937FFE8A3795CBA1354A563 /* IUAnimationRight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IUAnimationRight.m; sourceTree = "<group>"; };
+		EA036FE74A452B4947D86383DC932005 /* LdzfAnimationTop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LdzfAnimationTop.m; sourceTree = "<group>"; };
+		F318C81B0034BC3735D35D28C434377B /* LDZFTransitionAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDZFTransitionAnimator-umbrella.h"; sourceTree = "<group>"; };
+		F4E07D063D8E29C5EBE03B44B9772942 /* LDZFTransitionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDZFTransitionAnimator.h; path = LDZFTransitionAnimator/Classes/LDZFTransitionAnimator.h; sourceTree = "<group>"; };
+		F923341D609CECCB74169C8725F7848F /* LdzfAnimationCenterFromBottom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LdzfAnimationCenterFromBottom.h; sourceTree = "<group>"; };
 		FC72407B71EEDCF75B8450D0C982ACD4 /* LDZFTransitionAnimator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LDZFTransitionAnimator; path = LDZFTransitionAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7956EF41A2BF3CF3EA4160C6EBC266 /* Pods-LDZFTransitionAnimator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDZFTransitionAnimator_Example-dummy.m"; sourceTree = "<group>"; };
 		FF9E4682763AAAE763104341FF86E0B7 /* Pods-LDZFTransitionAnimator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFTransitionAnimator_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -166,20 +166,57 @@
 			path = "Target Support Files/Pods-LDZFTransitionAnimator_Tests";
 			sourceTree = "<group>";
 		};
-		3CBF840B86583F9186FAB1EC8C267FFD /* Pod */ = {
+		0967E5F46D5543766AEE943B54747DE7 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				ACA6622FCB3681C41E29571FB64B0BF5 /* LDZFTransitionAnimator.podspec */,
-				7A0E37818AB31D1CC59CD1A6A7AE42F3 /* LICENSE */,
-				DB0E150CC5AF5858A341BB0F10F240D2 /* README.md */,
+				1918DC5E5111BCC20629F4B23B8DB6F7 /* LdzfAnimationBottom.h */,
+				48CA00A08FCBC73B1C9EF26CE87A020A /* LdzfAnimationBottom.m */,
+				F923341D609CECCB74169C8725F7848F /* LdzfAnimationCenterFromBottom.h */,
+				562913B3B73C34538C850515377772B1 /* LdzfAnimationCenterFromBottom.m */,
+				0944097211C56CFA47FC3A41E79E9778 /* LdzfAnimationCenterFromTop.h */,
+				467DEBBA51A2E22A2022A83121532A21 /* LdzfAnimationCenterFromTop.m */,
+				B93EBC9D80B15760FABE3922DC5330AC /* LdzfAnimationFade.h */,
+				408B7EC62872029AB197754D7CDDFCD8 /* LdzfAnimationFade.m */,
+				404C8AF75D7225970AC6710EF9824ED3 /* LdzfAnimationLeft.h */,
+				4986E7A3E02692AC51AE2C1B1D2F6236 /* LdzfAnimationLeft.m */,
+				4BCCEA110E861E288169B601EFBA2DF0 /* LdzfAnimationRight.h */,
+				932FF2C2D7BC87887DC2F133DA801CD0 /* LdzfAnimationRight.m */,
+				B0882A3F4C53516747C4111673197CCF /* LdzfAnimationTop.h */,
+				EA036FE74A452B4947D86383DC932005 /* LdzfAnimationTop.m */,
+			);
+			name = Animation;
+			path = LDZFTransitionAnimator/Classes/Animation;
+			sourceTree = "<group>";
+		};
+		32C78FFFC3021A17C847F1ED51E3FFF9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				70E1050A2C6F08C567DC10EC1BB6E8C6 /* LDZFTransitionAnimator.podspec */,
+				945F808257850C7DC7691E674539671F /* LICENSE */,
+				580C046667869B32309790EB8ACBACF0 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		34E08BB1472FD8E8DBA2AAD44E57CD8B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A474F46B1878E48AEC3D4B59966DB1D /* LDZFTransitionAnimator.modulemap */,
+				00C2E50AAEBBCEFD2836DAF8CF25D6F8 /* LDZFTransitionAnimator-dummy.m */,
+				502CBBC7E6C18DE592FC40AF1FB5169F /* LDZFTransitionAnimator-Info.plist */,
+				3E97A1CAEFBED285039E035E649BDE16 /* LDZFTransitionAnimator-prefix.pch */,
+				F318C81B0034BC3735D35D28C434377B /* LDZFTransitionAnimator-umbrella.h */,
+				03E14C4AC3558A515087FD22293152F3 /* LDZFTransitionAnimator.debug.xcconfig */,
+				4C93E1611BC02157FF17CA9A21F4E841 /* LDZFTransitionAnimator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LDZFTransitionAnimator";
 			sourceTree = "<group>";
 		};
 		4F3E1433180F674173C7C78E1877DDB1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				64770EBA3C5D94AA07D38C7525BFBDF8 /* LDZFTransitionAnimator */,
+				57E68334AA72751C0CFD4EE5389DB5CE /* LDZFTransitionAnimator */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -192,19 +229,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		64770EBA3C5D94AA07D38C7525BFBDF8 /* LDZFTransitionAnimator */ = {
+		57E68334AA72751C0CFD4EE5389DB5CE /* LDZFTransitionAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				41FD978F7A74E377098AFE73121C984B /* IUBaseTransitionAnimator.h */,
-				94D18327E3342858EB70EA7CED0BF6FB /* IUBaseTransitionAnimator.m */,
-				C19113F92F42AE26B483B5259954197B /* IUCustomPresentationController.h */,
-				8E6E97E256516AC21C88FD73F1781BA0 /* IUCustomPresentationController.m */,
-				4E0299AC596FDBD14E05FC7DCA8A336E /* LDZFTransitionAnimator.h */,
-				9717237718AEB4CD1F53E6E1ABC8E4CA /* UIViewController+IUPresentAnimator.h */,
-				81CB12CD89615197074DEA834516F5EC /* UIViewController+IUPresentAnimator.m */,
-				9BA0C374DD756139138C956A39D8CD51 /* Animation */,
-				3CBF840B86583F9186FAB1EC8C267FFD /* Pod */,
-				BC48C6E5A6B921B3F2E511ECC45B50C3 /* Support Files */,
+				793DD76FFCC574B7E45124BCBBC18564 /* LdzfBaseTransitionAnimator.h */,
+				4AAFCE0E1950E881EE131BE621E53EE9 /* LdzfBaseTransitionAnimator.m */,
+				CEC765052148443E1E29B5DF18EED643 /* LdzfCustomPresentationController.h */,
+				04879E39C66E6F00D5E3BA3A5E7F5A5B /* LdzfCustomPresentationController.m */,
+				F4E07D063D8E29C5EBE03B44B9772942 /* LDZFTransitionAnimator.h */,
+				2F21E127EF3BB199E5C9C42DBA2166D2 /* UIViewController+LdzfPresentAnimator.h */,
+				1192F7128420DEE996215690CB705979 /* UIViewController+LdzfPresentAnimator.m */,
+				0967E5F46D5543766AEE943B54747DE7 /* Animation */,
+				32C78FFFC3021A17C847F1ED51E3FFF9 /* Pod */,
+				34E08BB1472FD8E8DBA2AAD44E57CD8B /* Support Files */,
 			);
 			name = LDZFTransitionAnimator;
 			path = ../..;
@@ -217,28 +254,6 @@
 				067E6A223B58C64AE80302B2C82F1196 /* Pods-LDZFTransitionAnimator_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9BA0C374DD756139138C956A39D8CD51 /* Animation */ = {
-			isa = PBXGroup;
-			children = (
-				76AD1C04035016FFF2069DAD123ABB41 /* IUAnimationBottom.h */,
-				C425E1CB0A74B2623688DD81BEC4C293 /* IUAnimationBottom.m */,
-				96D8913114A2F8E7D978EA3A51F27DEE /* IUAnimationCenterFromBottom.h */,
-				E37F6A4BFB5E2F7FAFACC0DA6FF67AB6 /* IUAnimationCenterFromBottom.m */,
-				33E4EFF29B1368561C0BA5617EF9CD31 /* IUAnimationCenterFromTop.h */,
-				53CC461D68D5A997365864241B2A20D3 /* IUAnimationCenterFromTop.m */,
-				DA646B65118AF43302B99089B0406BCC /* IUAnimationFade.h */,
-				8493893256204A031DB8A48E39FF2443 /* IUAnimationFade.m */,
-				AD99AB85E27E02E7593A3EF21B6E487C /* IUAnimationLeft.h */,
-				5885E2AB97A7166198F9B7CBED6DB122 /* IUAnimationLeft.m */,
-				6F118103DE10F609AD896DE9EECE795B /* IUAnimationRight.h */,
-				E39500444937FFE8A3795CBA1354A563 /* IUAnimationRight.m */,
-				BDE728AAD2E2D7396383B10C1CBE7AD2 /* IUAnimationTop.h */,
-				8D8CA98C490D17CEF1D9470B02D0F9D8 /* IUAnimationTop.m */,
-			);
-			name = Animation;
-			path = LDZFTransitionAnimator/Classes/Animation;
 			sourceTree = "<group>";
 		};
 		A13295562757A09D7E6A1205F3A1C60C /* Pods-LDZFTransitionAnimator_Example */ = {
@@ -256,21 +271,6 @@
 			);
 			name = "Pods-LDZFTransitionAnimator_Example";
 			path = "Target Support Files/Pods-LDZFTransitionAnimator_Example";
-			sourceTree = "<group>";
-		};
-		BC48C6E5A6B921B3F2E511ECC45B50C3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				459EDCEE3CC35BD3C4F562F97E014EBC /* LDZFTransitionAnimator.modulemap */,
-				8341DE5BF1FF5DCBF3DB779DFE5007EF /* LDZFTransitionAnimator-dummy.m */,
-				8FA7D91D2B3D0CB9376A9B21FA3C33E5 /* LDZFTransitionAnimator-Info.plist */,
-				6BD3D39FEF5655BBB8A28BED1648963A /* LDZFTransitionAnimator-prefix.pch */,
-				DF5FECC2749657407CBC12742E5CAD1A /* LDZFTransitionAnimator-umbrella.h */,
-				140904ABFF15EDE2FF5A7BECBED2D604 /* LDZFTransitionAnimator.debug.xcconfig */,
-				5FD7C29F4EE40A1BEAE4BA480DDF3E10 /* LDZFTransitionAnimator.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LDZFTransitionAnimator";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -295,22 +295,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0420058CA66BDF7FC879DC742E34EF96 /* Headers */ = {
+		3B39911F169244BE7577414A3CBF71EF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				348A2434F63F2B4E43109B8A4F3FDD57 /* IUAnimationBottom.h in Headers */,
-				60E12A8B13FA29E7EA6824308471043A /* IUAnimationCenterFromBottom.h in Headers */,
-				0B75D08AE2BDBE1BB113713C860132AB /* IUAnimationCenterFromTop.h in Headers */,
-				2EE1ED0B660EC20F8CE55F8A988D81C0 /* IUAnimationFade.h in Headers */,
-				A444FE4FC70C9AC73BC17C440545D3F6 /* IUAnimationLeft.h in Headers */,
-				E5F5BDAF17C344B93AD08E1915FF41A9 /* IUAnimationRight.h in Headers */,
-				26629096063F4236F5BE1BB175DE607C /* IUAnimationTop.h in Headers */,
-				A2C36A746431125CF051A2C94EA423AF /* IUBaseTransitionAnimator.h in Headers */,
-				35809C7C7CE755358BB66C3B0E1AD123 /* IUCustomPresentationController.h in Headers */,
-				6B45C5FDAFC3ED82C4927B6829DBC4B5 /* LDZFTransitionAnimator.h in Headers */,
-				8740F7BDA8EF20A3AE6D7B0190CD841C /* LDZFTransitionAnimator-umbrella.h in Headers */,
-				05D60EF1F950664FA3224E83C49211FC /* UIViewController+IUPresentAnimator.h in Headers */,
+				F323884105AC46DD3F22F50985A6748D /* LdzfAnimationBottom.h in Headers */,
+				19E505ABF02333EE16AD09D9D110763C /* LdzfAnimationCenterFromBottom.h in Headers */,
+				45693E07485DCD7BC32F2BE782351707 /* LdzfAnimationCenterFromTop.h in Headers */,
+				307883B645ABBFD78F2A826BF218F94F /* LdzfAnimationFade.h in Headers */,
+				EC3A25946F5303C70867DA1040374110 /* LdzfAnimationLeft.h in Headers */,
+				AD9287ECEB05FDF6C7BFB786BA7EB22A /* LdzfAnimationRight.h in Headers */,
+				1CEB804F1B2EB80873D40EF6ABDDE9E3 /* LdzfAnimationTop.h in Headers */,
+				13750121C43C0D658254C60B519E33D3 /* LdzfBaseTransitionAnimator.h in Headers */,
+				21A66C50465FC7615C4DCA147DE8A4AF /* LdzfCustomPresentationController.h in Headers */,
+				7AD6121D07855ED027B41BC7F0C23821 /* LDZFTransitionAnimator.h in Headers */,
+				891379F287A2B38D78C4893437443847 /* LDZFTransitionAnimator-umbrella.h in Headers */,
+				BE5E31501935A47576F58FA4FC020FB2 /* UIViewController+LdzfPresentAnimator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,8 +356,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041BE79C64D5835C2E226C757C4E6A47 /* Build configuration list for PBXNativeTarget "LDZFTransitionAnimator" */;
 			buildPhases = (
-				0420058CA66BDF7FC879DC742E34EF96 /* Headers */,
-				71CA8794B02056B4228B5AC8B76EB7F8 /* Sources */,
+				3B39911F169244BE7577414A3CBF71EF /* Headers */,
+				D66D54368F247A01867B8C032632B3D4 /* Sources */,
 				10AF0606525BC4B5C0810C765BB59922 /* Frameworks */,
 				0C1950CE4357594F874ADB3332F1502F /* Resources */,
 			);
@@ -459,21 +459,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71CA8794B02056B4228B5AC8B76EB7F8 /* Sources */ = {
+		D66D54368F247A01867B8C032632B3D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90A38C2649BF176F64FA609AFFB94949 /* IUAnimationBottom.m in Sources */,
-				1946E051EDE8315307DEA2594A6D7723 /* IUAnimationCenterFromBottom.m in Sources */,
-				185E11D02C81397456CAB9291A5C0AEC /* IUAnimationCenterFromTop.m in Sources */,
-				38E6F474E11D227BB706A478249F9807 /* IUAnimationFade.m in Sources */,
-				84BCB45417E27324C2E605A4A6DC5871 /* IUAnimationLeft.m in Sources */,
-				E71780D956CFCDDD96DF1EFFE1AD126F /* IUAnimationRight.m in Sources */,
-				CFED165D699E7D73220131A7C5A64803 /* IUAnimationTop.m in Sources */,
-				7DD725CBD0FB792D50791B19A798B978 /* IUBaseTransitionAnimator.m in Sources */,
-				3ADE06878E37082E24760C8548C57A50 /* IUCustomPresentationController.m in Sources */,
-				19334357FF312CF866B38368D33BA82B /* LDZFTransitionAnimator-dummy.m in Sources */,
-				C96CD98877AD61A1853C28D7DDB6EF19 /* UIViewController+IUPresentAnimator.m in Sources */,
+				9F82D2904E0EF1553258A01305C50455 /* LdzfAnimationBottom.m in Sources */,
+				58DE2CE277EF88800D618D5F1CB04F35 /* LdzfAnimationCenterFromBottom.m in Sources */,
+				EEDB72A170403DBF3D53885B348EB2A2 /* LdzfAnimationCenterFromTop.m in Sources */,
+				9FD3992DDC830BC5BEF540FE57D266B9 /* LdzfAnimationFade.m in Sources */,
+				1F75DA0F07BBA235A980538EAB5FD164 /* LdzfAnimationLeft.m in Sources */,
+				05210421FB4B5E5D8A075C933B94F120 /* LdzfAnimationRight.m in Sources */,
+				1BE9B9EE6754C45E24C000BFF78CF468 /* LdzfAnimationTop.m in Sources */,
+				CFAE0C3840F00B6F60F865BDB2D1B3D0 /* LdzfBaseTransitionAnimator.m in Sources */,
+				82E215E0B6A69E174793DCBD3CF18D20 /* LdzfCustomPresentationController.m in Sources */,
+				48519EA9138C20604A48A34D1F61F5BB /* LDZFTransitionAnimator-dummy.m in Sources */,
+				16C1F3357AAAE170F7BAB593C3B8A5BB /* UIViewController+LdzfPresentAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,7 +627,7 @@
 		};
 		866AC9A0939B4D549961D19AC1BCAAFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 140904ABFF15EDE2FF5A7BECBED2D604 /* LDZFTransitionAnimator.debug.xcconfig */;
+			baseConfigurationReference = 03E14C4AC3558A515087FD22293152F3 /* LDZFTransitionAnimator.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -710,7 +710,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -751,7 +752,7 @@
 		};
 		E6AE68A79D9927ED0809D782AF14C1E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FD7C29F4EE40A1BEAE4BA480DDF3E10 /* LDZFTransitionAnimator.release.xcconfig */;
+			baseConfigurationReference = 4C93E1611BC02157FF17CA9A21F4E841 /* LDZFTransitionAnimator.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

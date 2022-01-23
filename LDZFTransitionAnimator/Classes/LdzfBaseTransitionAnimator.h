@@ -1,28 +1,28 @@
 //
-//  IUBaseTransitionAnimator.h
-//  CRJIUBaseTransitionAnimator
+//  LdzfBaseTransitionAnimator.h
+//  CRJLdzfBaseTransitionAnimator
 //
 //  Created by zhuyuhui on 2020/12/12.
 //
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-@class IUBaseTransitionAnimator;
+@class LdzfBaseTransitionAnimator;
 
-@protocol IUBaseTransitionAnimatorDelegate <NSObject>
+@protocol LdzfBaseTransitionAnimatorDelegate <NSObject>
 
 @optional
 
-- (void)transitionAnimationEnded:(IUBaseTransitionAnimator *)animator;
+- (void)transitionAnimationEnded:(LdzfBaseTransitionAnimator *)animator;
 
 @end
 
-@interface IUBaseTransitionAnimator : NSObject <UIViewControllerAnimatedTransitioning>
+@interface LdzfBaseTransitionAnimator : NSObject <UIViewControllerAnimatedTransitioning>
 
 /**
- *  IUBaseTransitionAnimator's delegate.
+ *  LdzfBaseTransitionAnimator's delegate.
  */
-@property (nonatomic, weak) id <IUBaseTransitionAnimatorDelegate>  delegate;
+@property (nonatomic, weak) id <LdzfBaseTransitionAnimatorDelegate>  delegate;
 
 /**
  *  Transition's duration, default value is 0.5f.

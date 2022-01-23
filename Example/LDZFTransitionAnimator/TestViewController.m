@@ -25,7 +25,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
     TestViewController *testVC = [[TestViewController alloc] init];
-    IUAnimationCenterFromTop *animation = [[IUAnimationCenterFromTop alloc] init];
+    LdzfAnimationCenterFromTop *animation = [[LdzfAnimationCenterFromTop alloc] init];
     [self presentViewController:testVC animation:animation completion:nil];
 
 }

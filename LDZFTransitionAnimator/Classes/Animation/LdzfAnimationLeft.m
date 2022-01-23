@@ -1,7 +1,7 @@
 
-#import "IUAnimationLeft.h"
+#import "LdzfAnimationLeft.h"
 
-@implementation IUAnimationLeft
+@implementation LdzfAnimationLeft
 
 - (instancetype)init
 {

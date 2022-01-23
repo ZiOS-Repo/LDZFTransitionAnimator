@@ -1,7 +1,7 @@
 
-#import "IUAnimationCenterFromTop.h"
+#import "LdzfAnimationCenterFromTop.h"
 
-@implementation IUAnimationCenterFromTop
+@implementation LdzfAnimationCenterFromTop
 - (instancetype)init
 {
     self = [super init];

@@ -1,17 +1,17 @@
 //
-//  UIViewController+IUPresentAnimator.h
-//  CRJIUBaseTransitionAnimator
+//  UIViewController+LdzfPresentAnimator.h
+//  CRJLdzfBaseTransitionAnimator
 //
 //  Created by zhuyuhui on 2020/12/12.
 //
 
 #import <UIKit/UIKit.h>
-#import "IUBaseTransitionAnimator.h"
+#import "LdzfBaseTransitionAnimator.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIViewController (IUPresentAnimator)
+@interface UIViewController (LdzfPresentAnimator)
 - (void)presentViewController:(UIViewController *)viewControllerToPresent
-                    animation:(IUBaseTransitionAnimator *)animation
+                    animation:(LdzfBaseTransitionAnimator *)animation
                    completion:(void (^ __nullable)(void))completion;
 @end
 

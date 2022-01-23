@@ -8,17 +8,17 @@
 #ifndef LDZFTransitionAnimator_h
 #define LDZFTransitionAnimator_h
 
-#import "IUCustomPresentationController.h"
-#import "UIViewController+IUPresentAnimator.h"
+#import "LdzfCustomPresentationController.h"
+#import "UIViewController+LdzfPresentAnimator.h"
 
 //Animations
-#import "IUAnimationTop.h"
-#import "IUAnimationBottom.h"
-#import "IUAnimationLeft.h"
-#import "IUAnimationRight.h"
-#import "IUAnimationCenterFromTop.h"
-#import "IUAnimationCenterFromBottom.h"
-#import "IUAnimationFade.h"
+#import "LdzfAnimationTop.h"
+#import "LdzfAnimationBottom.h"
+#import "LdzfAnimationLeft.h"
+#import "LdzfAnimationRight.h"
+#import "LdzfAnimationCenterFromTop.h"
+#import "LdzfAnimationCenterFromBottom.h"
+#import "LdzfAnimationFade.h"
 
 
 

@@ -1,19 +1,19 @@
 //
-//  IUCustomPresentationController.m
-//  CRJIUBaseTransitionAnimator
+//  LdzfCustomPresentationController.m
+//  CRJLdzfBaseTransitionAnimator
 //
 //  Created by zhuyuhui on 2020/12/12.
 //
 
-#import "IUCustomPresentationController.h"
+#import "LdzfCustomPresentationController.h"
 
-@interface IUCustomPresentationController () // <UIViewControllerAnimatedTransitioning>
+@interface LdzfCustomPresentationController () // <UIViewControllerAnimatedTransitioning>
 
 @property(nonatomic, strong) UIView * dimmingView;
 
 @end
 
-@implementation IUCustomPresentationController
+@implementation LdzfCustomPresentationController
 
 - (void)dealloc
 {

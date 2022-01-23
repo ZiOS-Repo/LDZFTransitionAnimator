@@ -1,17 +1,17 @@
 //
-//  IUBaseTransitionAnimator.m
-//  CRJIUBaseTransitionAnimator
+//  LdzfBaseTransitionAnimator.m
+//  CRJLdzfBaseTransitionAnimator
 //
 //  Created by zhuyuhui on 2020/12/12.
 //
 
-#import "IUBaseTransitionAnimator.h"
+#import "LdzfBaseTransitionAnimator.h"
 
-@interface IUBaseTransitionAnimator ()
+@interface LdzfBaseTransitionAnimator ()
 
 @end
 
-@implementation IUBaseTransitionAnimator
+@implementation LdzfBaseTransitionAnimator
 
 - (instancetype)init {
     
@@ -32,7 +32,7 @@
 
 - (void)transitionAnimation {
 
-    [NSException raise:@"IUBaseTransitionAnimator Error."
+    [NSException raise:@"LdzfBaseTransitionAnimator Error."
                 format:@"You should overwrite this method in subclass."];
 }
 
